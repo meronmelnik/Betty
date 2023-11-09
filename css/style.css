@@ -1,0 +1,80 @@
+.container{
+    position: relative;
+    border-radius: 15px;
+    background-color: #1EB84B;
+    box-shadow:0 20px 30px rgba(0, 0, 0, .4);
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.navbar{
+    top: 100%;
+    height: auto;
+    position: relative;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    color: #000000;
+    font-family:"IBM Plex Sans";
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    position: relative;
+    font-size: 26px;
+    list-style-type:none;
+    padding: 10px 10px 10px;
+    margin-bottom: 0; 
+    color: #ffffff; 
+    text-align: center;
+}
+
+.navbar-menu li {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color:#ffffff;   
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all .2s ease-in-out;
+    box-shadow:0 2px 0px  #ff9100;  
+}
+
+.navbar-menu li a:hover{
+    opacity: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff;
+    background-color: #ff9100;
+    box-shadow:0 1px 0px  #000000;
+    border-radius: 15px;
+    transition: all .4s ease-in-out; 
+    
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.logo-betty{
+    list-style-type:none;
+}
